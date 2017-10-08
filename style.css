@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+       
+}
+a{
+    text-decoration:none;
+}
+.wrapper{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content:space-between;
+align-items:center;
+}
+
+.main-header{
+    background-color: rgba(232, 99, 78, 1);
+}
+.logo a{
+    font-family: 'Pacifico', cursive;
+    color:white;
+}
+.main-nav a{
+    color: white;
+    margin-right: 5px;
+    padding: 8px;
+}
+ .main-nav a:last-child{
+    margin-right: 0;
+    }
+.main-nav i{
+    color:aqua;
+    margin-right: 3px;
